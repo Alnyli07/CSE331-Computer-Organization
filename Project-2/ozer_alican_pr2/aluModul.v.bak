@@ -1,0 +1,49 @@
+module aluModul(
+	input [5:0] Funct,
+	input [4:0] Shamt,
+	input [31:0] Rs,Rt,
+	output [31:0] Result,
+	output carryOut,Zero,overFlow);
+
+	wire [31:0] Add,Sub,And,Or,Sra,Srl,Sll,Sllv,Slt;
+	wire overFlowAdd,overFlowSub;
+	
+	assign {carryOut,Add} = Rs + Rt;
+	assign Sub = Rs - Rt;
+	assign overFlowAdd = ((Rs[31] == Rt[31]) && (Add[31] != Rs[31])) ? 1 : 0;
+	assign overFlowSub = ((Rs[31] == Rt[31]) && (Sub[31] != Rs[31])) ? 1 : 0;
+
+	assign overFlow = (Funct == 6'b100000) ? overFlowAdd : overFlowSub;
+	assign And = Rs & Rt;
+	assign Or  = Rs | Rt;
+	assign Srl = Rs >> Shamt;
+	assign Sll = Rs << Shamt;
+	assign Sllv= Rt << Rs;
+	assign Slt = overFlowSub ? ~(Rs[31]) : Rs[31];
+	
+	shiftRA SRA(Rs,Shamt,Sra);
+	
+	assign Result = (Funct == 6'b000000) ? Sll ://sll
+	(Funct == 6'b000010) ? Srl ://srl
+	(Funct == 6'b000011) ? Sra ://sra
+	(Funct == 6'b000100) ? Sllv ://sllv
+	(Funct == 6'b100000) ? Add ://add
+	(Funct == 6'b100010) ? Sub ://sub
+	(Funct == 6'b100100) ? And ://and
+	(Funct == 6'b100101) ? Or ://or
+	(Funct == 6'b101010) ? {{31{1'b0}}, Slt} : 32'hx;	
+	
+	assign Zero = (Result == 0);
+	
+endmodule
+
+module shiftRA(input [31:0] inner, input [4:0] shamt, output [31:0] result);
+
+	wire [31:0] d0, d1, d2, d3, inverseA;
+	assign inverseA = ~inner;
+	assign d0 = (shamt[0] ? {inner[31], inner} >> 1 : inner);
+	assign d1 = ~(shamt[1] ? {{2{inner[31]}}, d0} >> 2 : d0);
+	assign d2 = ~(shamt[2] ? {{4{inverseA[31]}}, d1} >> 4 : d1);
+	assign d3 = ~(shamt[3] ? {{8{inner[31]}}, d2} >> 8 : d2);
+	assign result = ~(shamt[4] ? {{16{inverseA[31]}}, d3} >> 16 : d3);
+endmodule

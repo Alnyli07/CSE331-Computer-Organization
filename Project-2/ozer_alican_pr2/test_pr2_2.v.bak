@@ -1,0 +1,25 @@
+module test_pr2_2;
+	reg [31:0] myReg;
+	wire [31:0] result;	
+	integer i;
+	parameter maxLine=11;
+	
+	reg [31:0] command [0:maxLine-1];
+	
+	proje2 topModul( .reg32(myReg), .result(result));
+		
+	initial begin
+	// initalize the hexadecimal reads from the vectors.txt file
+		$readmemh("vectors.txt", topModul.regMod.fileMem);
+		$readmemb("command.txt", command);
+		
+		#100
+		for(i=0; i<maxLine; i=i+1) begin
+			
+			myReg=command[i];		
+			#100;
+		end		
+		$writememh("memory_hex.txt", topModul.regMod.fileMem);
+	end
+	
+endmodule

@@ -1,0 +1,93 @@
+module test_alu;
+	// Inputs
+	reg [5:0] funct;
+	reg [31:0] rs;
+	reg [31:0] rt;
+	reg [4:0] shamt;
+	// Outputs
+	wire carryout,zero,overflow;
+	wire [31:0] result;
+
+	aluModul tester(	.Funct(funct),.Shamt(shamt),.Rs(rs),
+	.Rt(rt),.Result(result),.carryOut(carryout),.Zero(zero),.overFlow(overflow));
+
+	initial begin
+		funct = 0;
+		rs = 0;
+		rt = 0;
+		shamt = 0;
+		#100
+        
+		//add
+		funct = 6'b100000;
+		rs = 32'hffffffff;
+		rt = 32'h0000000f;
+		shamt = 0;
+		#100;
+		
+		//sub
+		funct = 6'b100010;
+		rs = 11068;
+		rt = 15786;
+		shamt = 0;
+		#100;
+		
+		//and
+		funct = 6'b100100;
+		rs = 110234;
+		rt = 104567;
+		shamt = 0;
+		#100;
+		
+		//or
+		funct = 6'b100101;
+		rs = 11024;
+		rt = 10234;
+		shamt = 0;
+		#100;				
+		
+		//sra
+		funct = 6'b000011;
+		rs = 32'b10000000000000000000000000000000;
+		rt = 1023;
+		shamt = 5'd5;
+		#100;		
+			
+		//sra
+		funct = 6'b000011;
+		rs = 32'b01111111111111111111111111111111;
+		rt = 1023;
+		shamt = 5'd5;
+		#100;
+		
+		//srl
+		funct = 6'b000010;
+		rs = 1104345;
+		rt = 106756;
+		shamt = 1;
+		#100;
+		
+		//sll
+		funct = 6'b000000;
+		rs = 32'b001110;
+		rt = 1045747;
+		shamt = 2;
+		#100;
+		
+		//sllv
+		funct = 6'b000100;
+		rs = 32'b0011000;
+		rt = 10456;
+		shamt = 2;
+		#100;	
+		
+		//slt
+		funct = 6'b101010;
+		rs = -4;
+		rt = 4;
+		shamt = 2;
+		#100;
+	$finish;
+	end
+      
+endmodule

@@ -1,0 +1,71 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ozer_alican_pr2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/ozer_alican_pr2 {C:/Users/Can/Desktop/ozer_alican_pr2/registerModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module registerModul
+# 
+# Top level modules:
+# 	registerModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/ozer_alican_pr2 {C:/Users/Can/Desktop/ozer_alican_pr2/aluModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module aluModul
+# -- Compiling module shiftRA
+# 
+# Top level modules:
+# 	aluModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/ozer_alican_pr2 {C:/Users/Can/Desktop/ozer_alican_pr2/ozer_alican_pr2.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ozer_alican_pr2
+# 
+# Top level modules:
+# 	ozer_alican_pr2
+# 
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/ozer_alican_pr2/test_pr2_2.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_pr2_2
+# 
+# Top level modules:
+# 	test_pr2_2
+vsim work.test_pr2_2
+# vsim work.test_pr2_2 
+# Loading work.test_pr2_2
+# Loading work.ozer_alican_pr2
+# Loading work.registerModul
+# Loading work.aluModul
+# Loading work.shiftRA
+add wave -position insertpoint sim:/test_pr2_2/*
+add wave -position insertpoint sim:/test_pr2_2/topModul/aluMod/*
+add wave -position insertpoint sim:/test_pr2_2/topModul/regMod/*
+run -all
+# reg32:00000000000000010000100011000000
+# opcode:000000,rs:00000,rt:00001,rd:00001,shamt:00011,funct:000000
+# reg32:00000000001000100001100011000010
+# opcode:000000,rs:00001,rt:00010,rd:00011,shamt:00011,funct:000010
+# reg32:00000000010000110010000011000011
+# opcode:000000,rs:00010,rt:00011,rd:00100,shamt:00011,funct:000011
+# reg32:00000000011001000010100011000011
+# opcode:000000,rs:00011,rt:00100,rd:00101,shamt:00011,funct:000011
+# reg32:00000000100001010011000011100000
+# opcode:000000,rs:00100,rt:00101,rd:00110,shamt:00011,funct:100000
+# reg32:00000011000110011101000011100000
+# opcode:000000,rs:11000,rt:11001,rd:11010,shamt:00011,funct:100000
+# reg32:00000011001110101101100011100010
+# opcode:000000,rs:11001,rt:11010,rd:11011,shamt:00011,funct:100010
+# reg32:00000011010110111110000011100100
+# opcode:000000,rs:11010,rt:11011,rd:11100,shamt:00011,funct:100100
+# reg32:00000011011111001110100011100101
+# opcode:000000,rs:11011,rt:11100,rd:11101,shamt:00011,funct:100101
+# reg32:00000011100111011111000011101010
+# opcode:000000,rs:11100,rt:11101,rd:11110,shamt:00011,funct:101010
+# reg32:00000011101111101111100011101010
+# opcode:000000,rs:11101,rt:11110,rd:11111,shamt:00011,funct:101010

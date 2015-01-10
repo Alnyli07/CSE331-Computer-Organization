@@ -1,0 +1,107 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Can\Desktop\ozer_alican_pr2\simulation\modelsim
+valuModul
+Z1 Ii_KG<g2Zm=m0FNR3W]d5V0
+Z2 VNRB0@l:On]n576_^`WXcW3
+Z3 dC:\Users\Can\Desktop\ozer_alican_pr2\simulation\modelsim
+Z4 w1415572126
+Z5 8C:/Users/Can/Desktop/ozer_alican_pr2/aluModul.v
+Z6 FC:/Users/Can/Desktop/ozer_alican_pr2/aluModul.v
+L0 1
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 !s108 1415572379.516000
+Z9 !s107 C:/Users/Can/Desktop/ozer_alican_pr2/aluModul.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/ozer_alican_pr2|C:/Users/Can/Desktop/ozer_alican_pr2/aluModul.v|
+Z11 o-vlog01compat -work work -O0
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/Can/Desktop/ozer_alican_pr2 -O0
+Z13 nalu@modul
+Z14 !s100 :mlnGRDKZR]VA;D>eaomi3
+!i10b 1
+!s85 0
+!s101 -O0
+vozer_alican_pr2
+Z15 I5TVBYRcYS7;RhF;IaaJn]1
+Z16 V?oZKl?NRk;<BLWPk>Ggob3
+R3
+Z17 w1415478917
+Z18 8C:/Users/Can/Desktop/ozer_alican_pr2/ozer_alican_pr2.v
+Z19 FC:/Users/Can/Desktop/ozer_alican_pr2/ozer_alican_pr2.v
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+Z20 !s100 OhET=GeANU[i<h?a?E9GX1
+!s85 0
+Z21 !s108 1415572379.579000
+Z22 !s107 C:/Users/Can/Desktop/ozer_alican_pr2/ozer_alican_pr2.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/ozer_alican_pr2|C:/Users/Can/Desktop/ozer_alican_pr2/ozer_alican_pr2.v|
+!s101 -O0
+vregisterModul
+Z24 IHJF?d3d66kd4BcfB`_>z;2
+Z25 V2hUGNggRfj^TnTigfh`m20
+R3
+Z26 w1415478190
+Z27 8C:/Users/Can/Desktop/ozer_alican_pr2/registerModul.v
+Z28 FC:/Users/Can/Desktop/ozer_alican_pr2/registerModul.v
+L0 1
+R7
+r1
+31
+R11
+Z29 nregister@modul
+Z30 !s100 RSQ6c7P<obzOiSY:4>7Lk3
+Z31 !s108 1415572379.454000
+Z32 !s107 C:/Users/Can/Desktop/ozer_alican_pr2/registerModul.v|
+Z33 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/ozer_alican_pr2|C:/Users/Can/Desktop/ozer_alican_pr2/registerModul.v|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vshiftRA
+Z34 IW1=eI]JKic@mn9@TFHQ[n0
+Z35 VeSnTKnlU;04;fY0i5^N?01
+R3
+R4
+R5
+R6
+L0 40
+R7
+r1
+31
+R8
+R9
+R10
+R11
+R12
+Z36 nshift@r@a
+Z37 !s100 S]<nSA>80=SzMJH8NYY_31
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_pr2_2
+!i10b 1
+!s100 ]eh]f:nEYG`OXg;9fhj?<0
+IQ4]ILFV@[0hBMli3nlJbR2
+VL=Ailllb9JcC=fk7aBb_P2
+R3
+w1415571947
+8C:/Users/Can/Desktop/ozer_alican_pr2/test_pr2_2.v
+FC:/Users/Can/Desktop/ozer_alican_pr2/test_pr2_2.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1415572399.157000
+!s107 C:/Users/Can/Desktop/ozer_alican_pr2/test_pr2_2.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/ozer_alican_pr2/test_pr2_2.v|
+!s101 -O0
+o-work work -O0

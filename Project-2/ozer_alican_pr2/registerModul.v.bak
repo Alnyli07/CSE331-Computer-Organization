@@ -1,0 +1,19 @@
+module registerModul(readReg1,readReg2,writeReg,writeData,Write,readData1,readData2);
+	input [4:0] readReg1, readReg2, writeReg;
+	input [31:0] writeData;
+	input Write;	 
+	output reg [31:0] readData1, readData2;
+	
+	// Declare memory file 32 register 32 bit 
+	reg [31:0] fileMem [0:31];
+	
+	always @(readReg1 or readReg2 or writeReg or writeData or Write) 
+	begin
+		readData1 = fileMem[readReg1];
+		readData2 = fileMem[readReg2];
+
+		if (Write == 1)
+			fileMem[writeReg] = writeData;				
+			
+	end	
+endmodule 

@@ -1,0 +1,21 @@
+module ozer_alican_pr2(input [31:0] reg32,output [31:0] result);
+	reg [5:0] opcode,funct;
+	reg [4:0] rs,rt,rd,shamt;
+	wire carryOut,zero,overFlow;
+	reg write = 1;
+
+	wire [31:0] RSvalue,RTvalue,RDvalue;
+	registerModul regMod(.readReg1(rs),.readReg2(rt),.writeReg(rd),
+					.writeData(result),.Write(write),.readData1(RSvalue),.readData2(RTvalue));		
+		
+	aluModul aluMod(.Funct(funct),.Shamt(shamt),.Rs(RSvalue),
+					.Rt(RTvalue),.Result(result),.carryOut(carryOut),.Zero(zero),.overFlow(overFlow));
+	
+	//assign result = RDvalue;
+	always @ (reg32 ) begin	
+		{opcode,rs,rt,rd,shamt,funct} = reg32;
+		#100;
+		
+	end
+
+endmodule
