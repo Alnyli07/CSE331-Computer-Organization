@@ -1,0 +1,63 @@
+library verilog;
+use verilog.vl_types.all;
+entity CONTROLLER is
+    generic(
+        R_TYPE          : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        ADD             : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        SUB             : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi0, Hi0, Hi1, Hi0);
+        \AND\           : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi0, Hi1, Hi0, Hi0);
+        \OR\            : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi0, Hi1, Hi0, Hi1);
+        \SRA\           : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi1);
+        \SRL\           : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0);
+        \SLL\           : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        SLLV            : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi1, Hi0, Hi0);
+        SLT             : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi1, Hi0, Hi1, Hi0);
+        ADDI            : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi0, Hi0, Hi0);
+        ADDIU           : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi0, Hi0, Hi1);
+        ANDI            : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi1, Hi0, Hi0);
+        ORI             : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi1, Hi0, Hi1);
+        LUI             : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi1, Hi1, Hi1);
+        SLTIU           : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi0, Hi1, Hi1);
+        SLTI            : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi0, Hi1, Hi0);
+        BEQ             : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi1, Hi0, Hi0);
+        BNE             : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi1, Hi0, Hi1);
+        LW              : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi0, Hi0, Hi1, Hi1);
+        SW              : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi1, Hi0, Hi1, Hi1);
+        JUMP            : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0)
+    );
+    port(
+        OPCode          : in     vl_logic_vector(5 downto 0);
+        FCode           : in     vl_logic_vector(5 downto 0);
+        AluCtr          : out    vl_logic_vector(4 downto 0);
+        AluMUX1         : out    vl_logic;
+        AluMUX2         : out    vl_logic;
+        RegWrite        : out    vl_logic;
+        MemWrite        : out    vl_logic;
+        selectReg       : out    vl_logic;
+        MemtoReg        : out    vl_logic;
+        Branch          : out    vl_logic_vector(1 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of R_TYPE : constant is 1;
+    attribute mti_svvh_generic_type of ADD : constant is 1;
+    attribute mti_svvh_generic_type of SUB : constant is 1;
+    attribute mti_svvh_generic_type of \AND\ : constant is 1;
+    attribute mti_svvh_generic_type of \OR\ : constant is 1;
+    attribute mti_svvh_generic_type of \SRA\ : constant is 1;
+    attribute mti_svvh_generic_type of \SRL\ : constant is 1;
+    attribute mti_svvh_generic_type of \SLL\ : constant is 1;
+    attribute mti_svvh_generic_type of SLLV : constant is 1;
+    attribute mti_svvh_generic_type of SLT : constant is 1;
+    attribute mti_svvh_generic_type of ADDI : constant is 1;
+    attribute mti_svvh_generic_type of ADDIU : constant is 1;
+    attribute mti_svvh_generic_type of ANDI : constant is 1;
+    attribute mti_svvh_generic_type of ORI : constant is 1;
+    attribute mti_svvh_generic_type of LUI : constant is 1;
+    attribute mti_svvh_generic_type of SLTIU : constant is 1;
+    attribute mti_svvh_generic_type of SLTI : constant is 1;
+    attribute mti_svvh_generic_type of BEQ : constant is 1;
+    attribute mti_svvh_generic_type of BNE : constant is 1;
+    attribute mti_svvh_generic_type of LW : constant is 1;
+    attribute mti_svvh_generic_type of SW : constant is 1;
+    attribute mti_svvh_generic_type of JUMP : constant is 1;
+end CONTROLLER;

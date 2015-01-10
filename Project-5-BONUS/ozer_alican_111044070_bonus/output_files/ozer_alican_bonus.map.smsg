@@ -1,0 +1,23 @@
+Warning (10273): Verilog HDL warning at ozer_alican_bonus.v(57): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at ozer_alican_bonus.v(61): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Add" differs only in case from object "ADD" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Sub" differs only in case from object "SUB" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "And" differs only in case from object "AND" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Or" differs only in case from object "OR" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Sra" differs only in case from object "SRA" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Srl" differs only in case from object "SRL" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Sll" differs only in case from object "SLL" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Sllv" differs only in case from object "SLLV" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(6): object "Slt" differs only in case from object "SLT" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Addi" differs only in case from object "ADDI" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Addiu" differs only in case from object "ADDIU" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Andi" differs only in case from object "ANDI" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Ori" differs only in case from object "ORI" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Lui" differs only in case from object "LUI" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Sltiu" differs only in case from object "SLTIU" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Slti" differs only in case from object "SLTI" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Beq" differs only in case from object "BEQ" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Bne" differs only in case from object "BNE" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Lw" differs only in case from object "LW" in the same scope
+Info (10281): Verilog HDL Declaration information at ALUModul.v(7): object "Sw" differs only in case from object "SW" in the same scope
+Warning (10273): Verilog HDL warning at CONTROLLER.v(55): extended using "x" or "z"

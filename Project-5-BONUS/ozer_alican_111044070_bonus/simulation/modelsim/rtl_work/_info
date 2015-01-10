@@ -1,0 +1,252 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Can\Desktop\Organizasyon\Projeler\ozer_alican_111044070_bonus_32\ozer_alican_111044070_bonus\simulation\modelsim
+vALUModul
+Z1 I?ecf4DN8fAYhc^AaMW@eY3
+Z2 VZNRmN9CILnVCzam<gzM=o3
+Z3 dC:\Users\Can\Desktop\Organizasyon\Projeler\ozer_alican_111044070_bonus_32\ozer_alican_111044070_bonus\simulation\modelsim
+Z4 w1420290384
+Z5 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ALUModul.v
+Z6 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ALUModul.v
+L0 1
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 !s108 1420292499.974000
+Z9 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ALUModul.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ALUModul.v|
+Z11 o-vlog01compat -work work -O0
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus -O0
+Z13 n@a@l@u@modul
+Z14 !s100 Tg3Z2XVLeezgJ`_n88]bd1
+!i10b 1
+!s85 0
+!s101 -O0
+vCONTROLLER
+Z15 IEhOjWloT^C?E6M7e@dI<E0
+Z16 VZccLc03l`gBT<3C;LRg1l0
+R3
+Z17 w1420145691
+Z18 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/CONTROLLER.v
+Z19 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/CONTROLLER.v
+L0 1
+R7
+r1
+31
+R11
+R12
+Z20 n@c@o@n@t@r@o@l@l@e@r
+!i10b 1
+Z21 !s100 d@nUzYRaifMaY`<`jToGf1
+!s85 0
+Z22 !s108 1420292500.083000
+Z23 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/CONTROLLER.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/CONTROLLER.v|
+!s101 -O0
+vDATAMemory
+Z25 IZCM?:5N5nnJ`oe;_d@=GB3
+Z26 V=IHJdAHUF;h`g1=3e9Qn>2
+R3
+Z27 w1420289396
+Z28 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/DATAMemory.v
+Z29 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/DATAMemory.v
+L0 1
+R7
+r1
+31
+R11
+R12
+Z30 n@d@a@t@a@memory
+Z31 !s100 1oUZ`IR;j5MJ2lnn_DSCl0
+Z32 !s108 1420292499.896000
+Z33 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/DATAMemory.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/DATAMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vINSTMemory
+Z35 IKoCFmgJDoNBgoW8bX2Ad71
+Z36 VlO_L8]9a4GSUI^I7lkeb>3
+R3
+Z37 w1419629983
+Z38 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/INSTMemory.v
+Z39 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/INSTMemory.v
+L0 1
+R7
+r1
+31
+R11
+R12
+Z40 n@i@n@s@t@memory
+Z41 !s100 >DBI5Mb3cecK2oh<R:;Lb2
+Z42 !s108 1420292499.834000
+Z43 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/INSTMemory.v|
+Z44 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/INSTMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2_32b
+Z45 IGO`ZmH<1MQ]P8e;Qj8InO0
+Z46 VQ^I7DQmDG?;X9EiW=3mIH2
+R3
+Z47 w1420145695
+Z48 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ozer_alican_bonus.v
+Z49 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ozer_alican_bonus.v
+L0 55
+R7
+r1
+31
+Z50 !s108 1420292499.724000
+Z51 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ozer_alican_bonus.v|
+Z52 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ozer_alican_bonus.v|
+R11
+R12
+Z53 !s100 ^V`??n>mckLAI`oWI<f8l0
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2_5b
+Z54 I441XgX=B6?IdjdALH76]l0
+Z55 V]TFQM0X;zPlg5Aci`^:<g0
+R3
+R47
+R48
+R49
+L0 59
+R7
+r1
+31
+R50
+R51
+R52
+R11
+R12
+Z56 !s100 o`YcK=C]Y`0<1gcmk^C[g2
+!i10b 1
+!s85 0
+!s101 -O0
+vozer_alican_bonus
+Z57 I:9YO:Z@F2?R5Mb7Jn[i>T2
+Z58 V7LTNgh^k^LEQgFB:m>iSX3
+R3
+R47
+R48
+R49
+L0 1
+R7
+r1
+31
+R50
+R51
+R52
+R11
+R12
+Z59 !s100 FWmOnmTCggTANGZ2O?ee03
+!i10b 1
+!s85 0
+!s101 -O0
+vPCModul
+Z60 IhJDcQm7WS?zkiBILBHOk90
+Z61 V@0[DEzc^XRgQ:ZBkkQWU[3
+R3
+Z62 w1420130599
+Z63 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/PCModul.v
+Z64 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/PCModul.v
+L0 1
+R7
+r1
+31
+R11
+R12
+Z65 n@p@c@modul
+Z66 !s100 U53P7[6AMgk^BFCPfOiX@3
+Z67 !s108 1420292499.646000
+Z68 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/PCModul.v|
+Z69 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/PCModul.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREGMemory
+Z70 I:0OYV;?b46PGi5[YHfI?G0
+Z71 V2me8[>_UIa1h6]2`fjiA[2
+R3
+Z72 w1420142283
+Z73 8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/REGMemory.v
+Z74 FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/REGMemory.v
+L0 1
+R7
+r1
+31
+R11
+Z75 n@r@e@g@memory
+Z76 !s100 Ezk0Tc4QUz2FFf0RzB[j32
+Z77 !s108 1420292499.568000
+Z78 !s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/REGMemory.v|
+Z79 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/REGMemory.v|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vsetOnLessThan
+Z80 Io[C>RMMl1O81i4iRI`<V63
+Z81 VK6c6i5@oDBV6Chbo67>i11
+R3
+R4
+R5
+R6
+Z82 L0 118
+R7
+r1
+31
+R8
+R9
+R10
+R11
+R12
+Z83 nset@on@less@than
+Z84 !s100 Li45J3UBCFE[@ecRf62fR0
+!i10b 1
+!s85 0
+!s101 -O0
+vshiftRA
+Z85 I]kYg_fFgcfEhM0ZgmL2]h1
+Z86 VeSnTKnlU;04;fY0i5^N?01
+R3
+R4
+R5
+R6
+Z87 L0 107
+R7
+r1
+31
+R8
+R9
+R10
+R11
+R12
+Z88 nshift@r@a
+Z89 !s100 zdiVJeT5gn<2:ES:N;c4;2
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_top
+!i10b 1
+!s100 9VmGgL0D2ZbOY33zTNZNR1
+IEbX^bA[EOUPmZg_AiMzNF2
+VQ6;9LNijR5F^glHjWHYzV3
+R3
+w1420289336
+8C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v
+FC:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1420292506.292000
+!s107 C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v|
+!s101 -O0
+o-work work -O0

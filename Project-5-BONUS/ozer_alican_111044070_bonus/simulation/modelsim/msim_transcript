@@ -1,0 +1,87 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do ozer_alican_bonus_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/REGMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module REGMemory
+# 
+# Top level modules:
+# 	REGMemory
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/PCModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module PCModul
+# 
+# Top level modules:
+# 	PCModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ozer_alican_bonus.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ozer_alican_bonus
+# -- Compiling module mux2_32b
+# -- Compiling module mux2_5b
+# 
+# Top level modules:
+# 	ozer_alican_bonus
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/INSTMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module INSTMemory
+# 
+# Top level modules:
+# 	INSTMemory
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/DATAMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DATAMemory
+# 
+# Top level modules:
+# 	DATAMemory
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/ALUModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ALUModul
+# -- Compiling module shiftRA
+# -- Compiling module setOnLessThan
+# 
+# Top level modules:
+# 	ALUModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/CONTROLLER.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module CONTROLLER
+# 
+# Top level modules:
+# 	CONTROLLER
+# 
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_top
+# 
+# Top level modules:
+# 	test_top
+vsim work.test_top
+# vsim work.test_top 
+# Loading work.test_top
+# Loading work.ozer_alican_bonus
+# Loading work.PCModul
+# Loading work.INSTMemory
+# Loading work.CONTROLLER
+# Loading work.mux2_5b
+# Loading work.REGMemory
+# Loading work.mux2_32b
+# Loading work.ALUModul
+# Loading work.shiftRA
+# Loading work.setOnLessThan
+# Loading work.DATAMemory
+add wave -position insertpoint sim:/test_top/*
+add wave -position insertpoint sim:/test_top/topModul/*
+run -all
+# ** Note: $finish    : C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v(27)
+#    Time: 1300 ps  Iteration: 0  Instance: /test_top
+# 1
+# Break in Module test_top at C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_32/ozer_alican_111044070_bonus/test_top.v line 27

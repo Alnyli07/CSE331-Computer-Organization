@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/REGMemory.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/PCModul.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/ozer_alican_bonus.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/INSTMemory.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/DATAMemory.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/ALUModul.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus {C:/Users/Can/Desktop/Organizasyon/Projeler/ozer_alican_111044070_bonus_son/ozer_alican_111044070_bonus/CONTROLLER.v}
+

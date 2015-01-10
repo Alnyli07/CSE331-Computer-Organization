@@ -1,0 +1,50 @@
+module ozer_alican_bonus(output [31:0] Result);
+	
+	wire [5:0] opcode,funct;
+	wire [4:0] rs,rt,rd,shamt,REGWRin;
+	wire [15:0] offset;
+	wire [25:0] targetAddress;	
+	wire [31:0] signExtented;
+	wire zero,carry,overflow,RegWr;
+	wire [31:0]PCin,PCOut,PCWire,REGOut1,REGOut2,reg32,
+		ALUResult,MEMOut,WriteDATA;
+	//moduls connection definition
+	PCModul PC(PCin,PCOut);
+	INSTMemory IM(PCOut,reg32);
+	//gelen registerı parçala
+	assign opcode=reg32[31:26];
+	assign rs=reg32[25:21];
+	assign rt=reg32[20:16];
+	assign rd=reg32[15:11];
+	assign shamt=reg32[10:6];
+	assign funct=reg32[5:0];	
+	assign targetAddress=reg32[25:0];
+	assign offset=reg32[15:0];
+	//sign extend to 32 bit
+	assign signExtented = {{16{offset[15]}},offset[15:0]};
+	
+	wrRegSelect REGIN2(opcode,rt,rd,REGWRin);	
+	assign RegWr = ((opcode == 6'b000100) || (opcode == 6'b000101) || (opcode == 6'b101011) || (opcode == 6'b000010)) ? 1'b0: 1'b1;
+	REGMemory REG(rs,rt,REGWRin,WriteDATA,RegWr,REGOut1,REGOut2);
+	
+	ALUModul ALU(opcode,funct,shamt,REGOut1,REGOut2,signExtented,ALUResult,zero,carry,overflow);
+	
+	DATAMemory DATAMEM(ALUResult,REGOut2,(opcode == 6'b101011),MEMOut);
+	
+	assign WriteDATA = (opcode == 6'b100011) ? MEMOut : ALUResult;
+	//jump ve brancte pc guncelleme
+	assign PCWire=PCOut+32'd4;
+	assign PCin = 
+		(opcode == 6'b000100 && zero == 1'b1) ? (PCWire +signExtented * 4)://beq
+		(opcode == 6'b000101 && zero == 1'b0) ? (PCWire +signExtented * 4)://bne
+		(opcode == 6'b000010) ? {PCWire[31:28],targetAddress,2'b00}://jump
+		PCWire;
+	assign Result = ALUResult;
+endmodule
+
+module wrRegSelect(input [5:0] opcode,input[4:0] rt,rd,output [4:0] out);
+	parameter R_TYPE=6'b000000;
+	assign out = (opcode == R_TYPE) ? rd : rt;
+endmodule	
+
+	
