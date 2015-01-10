@@ -1,0 +1,20 @@
+Warning (10268): Verilog HDL information at registerModul.v(10): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at aluModul.v(62): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Addi" differs only in case from object "addi" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Addiu" differs only in case from object "addiu" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Slti" differs only in case from object "slti" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Sltiu" differs only in case from object "sltiu" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(10): object "addi" differs only in case from object "ADDI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Addi" differs only in case from object "ADDI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(10): object "addiu" differs only in case from object "ADDIU" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Addiu" differs only in case from object "ADDIU" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Andi" differs only in case from object "ANDI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Ori" differs only in case from object "ORI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Lui" differs only in case from object "LUI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(12): object "sltiu" differs only in case from object "SLTIU" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Sltiu" differs only in case from object "SLTIU" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(12): object "slti" differs only in case from object "SLTI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Slti" differs only in case from object "SLTI" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Beq" differs only in case from object "BEQ" in the same scope
+Info (10281): Verilog HDL Declaration information at aluModul.v(7): object "Bne" differs only in case from object "BNE" in the same scope
+Warning (10268): Verilog HDL information at instMemory.v(6): always construct contains both blocking and non-blocking assignments

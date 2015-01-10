@@ -1,0 +1,1 @@
+module insMemory(input PCin,output PCout);

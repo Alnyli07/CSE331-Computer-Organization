@@ -1,0 +1,180 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Can\Desktop\Organizasyon\ozer_alican_111044070_pr3\simulation\modelsim
+valuModul
+Z1 !s100 kJTZfM<J27P0Z7UKDFFD@0
+Z2 Illn^CH6>72P_GL@GefCVa2
+Z3 V3gN=EMIiEO:M5O@]YaELl3
+Z4 dC:\Users\Can\Desktop\Organizasyon\ozer_alican_111044070_pr3\simulation\modelsim
+Z5 w1416851745
+Z6 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/aluModul.v
+Z7 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/aluModul.v
+L0 1
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 o-work work -O0
+Z10 nalu@modul
+Z11 !s108 1416862295.670000
+Z12 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/aluModul.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/aluModul.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstMemory
+Z14 !s100 bj6n1;=gXk7N^EE<[YM>:1
+Z15 IEnY<88o:hgDIhlGOJT<8_2
+Z16 V]>i2AP9_2P0[IeKeZJ^eK3
+R4
+Z17 w1416862057
+Z18 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/instMemory.v
+Z19 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/instMemory.v
+L0 1
+R8
+r1
+31
+R9
+Z20 ninst@memory
+Z21 !s108 1416862295.732000
+Z22 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/instMemory.v|
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/instMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vozer_alican_pr3
+Z24 !s100 Y04RDmFY@Bk60Pi=OIA7z0
+Z25 IgSfB`]mMnCGKPZdc1lkh72
+Z26 VQFRJCoiUJ7i^dGmXW8UlH2
+R4
+Z27 w1416851315
+Z28 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/ozer_alican_pr3.v
+Z29 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/ozer_alican_pr3.v
+L0 1
+R8
+r1
+31
+R9
+Z30 !s108 1416862295.795000
+Z31 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/ozer_alican_pr3.v|
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/ozer_alican_pr3.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vPC
+Z33 !s100 ljW`2anW7[E]h2^9E:F2e2
+Z34 I?64:lCO[2Ok?N3dP=[X1:1
+Z35 VdFR`DAg5]C3D_;WOn^<JD0
+R4
+Z36 w1416851143
+Z37 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/PC.v
+Z38 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/PC.v
+L0 1
+R8
+r1
+31
+R9
+n@p@c
+Z39 !s108 1416862295.857000
+Z40 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/PC.v|
+Z41 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/PC.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregisterModul
+Z42 !s100 j4g7]EOU1@iC557OSnn843
+Z43 I5]]fg>B`>bcO6UFMN>S0g2
+Z44 V2hUGNggRfj^TnTigfh`m20
+R4
+Z45 w1416861159
+Z46 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/registerModul.v
+Z47 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/registerModul.v
+L0 1
+R8
+r1
+31
+R9
+Z48 nregister@modul
+Z49 !s108 1416862295.919000
+Z50 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/registerModul.v|
+Z51 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/registerModul.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_alu
+Z52 I72T0FN>6PiSGcID5D63[m0
+Z53 VRQ5b>=EhA`^BO:bHC;`lE3
+R4
+Z54 w1416434494
+Z55 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_alu.v
+Z56 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_alu.v
+L0 1
+R8
+r1
+31
+R9
+Z57 !s100 aVo@;PI;=LFh^AVJob4jI2
+Z58 !s108 1416862295.966000
+Z59 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_alu.v|
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_pr3
+Z61 IVz:6B[Yd7MAUZJXUDE=Sl2
+Z62 Vf[VBehl;LT>;ORYA_D4eU3
+R4
+Z63 w1416861772
+Z64 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3.v
+Z65 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3.v
+L0 1
+R8
+r1
+31
+R9
+Z66 !s100 k0FozK?J:UbRbEkCnFTfS0
+Z67 !s108 1416862296.029000
+Z68 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3.v|
+Z69 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_pr3_2
+Z70 IKL98Yo:<O^`iH<T:NUh<V3
+Z71 VR1Jh4^ocFNAn_X20:8<j?1
+R4
+Z72 w1416853757
+Z73 8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3_2.v
+Z74 FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3_2.v
+L0 1
+R8
+r1
+31
+R9
+!i10b 1
+Z75 !s100 <alcKGf2<6>:@A_aiCW?R1
+!s85 0
+Z76 !s108 1416862296.091000
+Z77 !s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3_2.v|
+Z78 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3_2.v|
+!s101 -O0
+vtest_register
+!i10b 1
+!s100 _HS@Fm0]2_34Q4hOm^F7N3
+IJkobgc44[`]b^700FhnTQ3
+VXU_hgafL]]O4c62CEf[zI3
+R4
+w1415475009
+8C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_register.v
+FC:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_register.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1416862296.153000
+!s107 C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_register.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_register.v|
+!s101 -O0
+R9

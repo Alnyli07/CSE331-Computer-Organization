@@ -1,0 +1,108 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ozer_alican_pr3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3 {C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3 {C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/ozer_alican_pr3.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ozer_alican_pr3
+# 
+# Top level modules:
+# 	ozer_alican_pr3
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3 {C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/registerModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module registerModul
+# 
+# Top level modules:
+# 	registerModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3 {C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/aluModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module aluModul
+# 
+# Top level modules:
+# 	aluModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3 {C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/instMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instMemory
+# 
+# Top level modules:
+# 	instMemory
+# 
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/aluModul.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module aluModul
+# 
+# Top level modules:
+# 	aluModul
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/instMemory.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instMemory
+# 
+# Top level modules:
+# 	instMemory
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/ozer_alican_pr3.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ozer_alican_pr3
+# 
+# Top level modules:
+# 	ozer_alican_pr3
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/PC.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/registerModul.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module registerModul
+# 
+# Top level modules:
+# 	registerModul
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_alu.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_alu
+# 
+# Top level modules:
+# 	test_alu
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_pr3
+# 
+# Top level modules:
+# 	test_pr3
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_pr3_2.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_pr3_2
+# 
+# Top level modules:
+# 	test_pr3_2
+vlog -reportprogress 300 -work work C:/Users/Can/Desktop/Organizasyon/ozer_alican_111044070_pr3/test_register.v
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_register
+# 
+# Top level modules:
+# 	test_register
+vsim work.test_pr3_2
+# vsim work.test_pr3_2 
+# Loading work.test_pr3_2
+# Loading work.ozer_alican_pr3
+# Loading work.PC
+# Loading work.instMemory
+# Loading work.registerModul
+# Loading work.aluModul
+add wave -position insertpoint sim:/test_pr3_2/*
+add wave -position insertpoint sim:/test_pr3_2/topModul/*
+run -all
