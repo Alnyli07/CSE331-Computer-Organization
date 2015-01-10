@@ -1,0 +1,5 @@
+module test_data;
+
+	
+	initial begin
+		$readmemb("dMem.txt", topModul.datamem.dMem);

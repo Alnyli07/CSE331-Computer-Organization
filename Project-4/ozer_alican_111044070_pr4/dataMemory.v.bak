@@ -1,0 +1,11 @@
+module dataMemory(address, wrEn, data_in, data_out);
+	input [31:0] addr;
+	input wrb;
+	input [31:0] din;
+	output [31:0] dout;
+	reg [31:0] dMem[0:0]; // the memory
+	reg [31:0] dout;
+	always @(addr or wrb or din)
+	if (~wrb) dMmem[addr] <= din;
+	else dout <= dMem[addr];
+endmodul

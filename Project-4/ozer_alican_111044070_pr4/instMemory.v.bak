@@ -1,0 +1,19 @@
+module instMemory(input [31:0] PCin,
+	output reg [31:0] instruction
+);
+	parameter memory_size=88;//kendi degerinizi giriniz
+	reg [7:0] iMem [0:memory_size-1];
+	integer i = 0;
+	
+
+	always @ (PCin) begin
+	
+		instruction <= {iMem[PCin],iMem[PCin+1],iMem[PCin+2],iMem[PCin+3]};		
+		i = 4 * i;
+		
+		if(PCin >= memory_size * 4) begin
+			#((memory_size - i)/4*50);//memory sonuna geldiğinde
+		end
+	end
+	
+endmodule

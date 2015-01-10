@@ -1,0 +1,22 @@
+module test_pr4_2;
+	wire [31:0] result;	
+	parameter numOfInstruction = 24;
+	parameter delayTime= numOfInstruction * 50;
+
+	ozer_alican_pr4 topModul(.result(result));
+		
+	initial begin
+		//initalize the hexadecimal reads from the vectors.txt file
+		$readmemh("rMem.txt", topModul.regMod.rMem);
+		$readmemb("iMem.txt", topModul.imModul.iMem);//read command from file
+		$readmemb("dMem.txt", topModul.datamem.dMem);
+		#delayTime;
+		$writememh("result_rMem.txt", topModul.regMod.rMem);
+		$writememb("result_iMem.txt", topModul.imModul.iMem);
+		$writememb("result_dMem.txt", topModul.datamem.dMem);
+		#100;
+	end
+	
+	
+
+endmodule

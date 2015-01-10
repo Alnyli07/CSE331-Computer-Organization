@@ -1,0 +1,181 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Can\Desktop\Yeni klasör\ozer_alican_111044070_pr4\simulation\modelsim
+valuModul
+Z1 !s100 1a=;YYzOORPlFWEElo3on0
+Z2 IkOdcVWB>Pjj;LKhc`9V5b0
+Z3 VV8`iagNO>>N3V74:PG;?21
+Z4 dC:\Users\Can\Desktop\Yeni klasör\ozer_alican_111044070_pr4\simulation\modelsim
+Z5 w1418199166
+Z6 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/aluModul.v
+Z7 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/aluModul.v
+L0 1
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 o-work work -O0
+Z10 nalu@modul
+Z11 !s108 1418209058.671000
+Z12 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/aluModul.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/aluModul.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdataMemory
+Z14 !s100 UnE5mR=6Q_c0<K1VO[Zhl1
+Z15 Ibi1CNRzSo]NOYE;;R6FDR1
+Z16 V>m>0k7BE4?V^<o7cR0g383
+R4
+Z17 w1418203023
+Z18 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/dataMemory.v
+Z19 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/dataMemory.v
+L0 1
+R8
+r1
+31
+R9
+Z20 ndata@memory
+Z21 !s108 1418209058.749000
+Z22 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/dataMemory.v|
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/dataMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstMemory
+Z24 !s100 aTgQjMgZAdhgjBlbGMG@I3
+Z25 IXOlLkPn3lL:mQWKH60;9:2
+Z26 VWnLio:9o5@UaK2kG73H_E1
+R4
+Z27 w1418207715
+Z28 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/instMemory.v
+Z29 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/instMemory.v
+L0 1
+R8
+r1
+31
+R9
+Z30 ninst@memory
+Z31 !s108 1418209058.811000
+Z32 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/instMemory.v|
+Z33 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/instMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vozer_alican_pr4
+Z34 !s100 n1;9Iig81@]Z3Ska;`ZUh1
+Z35 I;[a[OgC<2zXcVHnROCeCZ1
+Z36 V3dWT<Xj1o?zRS@3eg060X1
+R4
+Z37 w1418207640
+Z38 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/ozer_alican_pr4.v
+Z39 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/ozer_alican_pr4.v
+L0 1
+R8
+r1
+31
+R9
+Z40 !s108 1418209058.889000
+Z41 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/ozer_alican_pr4.v|
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/ozer_alican_pr4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregMemory
+Z43 !s100 [1`kT0_d0RTi@F8zPUASf1
+Z44 If8k?;3@9fCezh]OgQ6cc13
+Z45 VnEc420lF]nlmJ85h0Jm9P0
+R4
+Z46 w1418201153
+Z47 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/regMemory.v
+Z48 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/regMemory.v
+L0 1
+R8
+r1
+31
+R9
+Z49 nreg@memory
+Z50 !s108 1418209058.967000
+Z51 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/regMemory.v|
+Z52 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/regMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_alu
+Z53 Il1:OcjlNAHDnBl7=kajY93
+Z54 VRQ5b>=EhA`^BO:bHC;`lE3
+R4
+Z55 w1417821948
+Z56 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_alu.v
+Z57 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_alu.v
+L0 1
+R8
+r1
+31
+R9
+Z58 !s100 _HiQKciI1jihSz1<PGAP81
+Z59 !s108 1418209059.030000
+Z60 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_alu.v|
+Z61 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_data
+Z62 I3MW]WU^ECZ>kQf^MdX[bh0
+Z63 VXAnZ;nooCPz@iFQSQfCN;2
+R4
+Z64 w1417818973
+Z65 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_data.v
+Z66 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_data.v
+L0 1
+R8
+r1
+31
+R9
+Z67 !s100 kfl@L_P5i=8X9X2LB61fF1
+Z68 !s108 1418209059.108000
+Z69 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_data.v|
+Z70 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_data.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_iMem
+Z71 Icla6XdF1ag5^05]U^AeHg1
+Z72 VL4ZznR4XMjKMXlO0maO101
+R4
+Z73 w1417941721
+Z74 8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_iMem.v
+Z75 FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_iMem.v
+L0 1
+R8
+r1
+31
+R9
+Z76 ntest_i@mem
+!i10b 1
+Z77 !s100 LenH4Xjf<@0VCTJm`QMLk3
+!s85 0
+Z78 !s108 1418209059.170000
+Z79 !s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_iMem.v|
+Z80 !s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_iMem.v|
+!s101 -O0
+vtest_pr4_2
+!i10b 1
+!s100 cD`l]HOcEja6SeCDYSj]l2
+I=kiLaH=o[GZmR>>DOEcP`2
+VU0=oiN^iGm6>K76]gLR6X1
+R4
+w1418208423
+8C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v
+FC:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1418209059.248000
+!s107 C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v|
+!s101 -O0
+R9

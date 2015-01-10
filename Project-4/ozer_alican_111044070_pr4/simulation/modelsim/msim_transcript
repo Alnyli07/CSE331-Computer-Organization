@@ -1,0 +1,113 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ozer_alican_pr4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Yeni\ klasör/ozer_alican_111044070_pr4 {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/ozer_alican_pr4.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ozer_alican_pr4
+# 
+# Top level modules:
+# 	ozer_alican_pr4
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Yeni\ klasör/ozer_alican_111044070_pr4 {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/aluModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module aluModul
+# 
+# Top level modules:
+# 	aluModul
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Yeni\ klasör/ozer_alican_111044070_pr4 {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/regMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regMemory
+# 
+# Top level modules:
+# 	regMemory
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Yeni\ klasör/ozer_alican_111044070_pr4 {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/instMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instMemory
+# 
+# Top level modules:
+# 	instMemory
+# vlog -vlog01compat -work work +incdir+C:/Users/Can/Desktop/Yeni\ klasör/ozer_alican_111044070_pr4 {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/dataMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dataMemory
+# 
+# Top level modules:
+# 	dataMemory
+# 
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/aluModul.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module aluModul
+# 
+# Top level modules:
+# 	aluModul
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/dataMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dataMemory
+# 
+# Top level modules:
+# 	dataMemory
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/instMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instMemory
+# 
+# Top level modules:
+# 	instMemory
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/ozer_alican_pr4.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ozer_alican_pr4
+# 
+# Top level modules:
+# 	ozer_alican_pr4
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/regMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regMemory
+# 
+# Top level modules:
+# 	regMemory
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_alu
+# 
+# Top level modules:
+# 	test_alu
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_data.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_data
+# 
+# Top level modules:
+# 	test_data
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_iMem.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_iMem
+# 
+# Top level modules:
+# 	test_iMem
+vlog -reportprogress 300 -work work {C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module test_pr4_2
+# 
+# Top level modules:
+# 	test_pr4_2
+vsim work.test_pr4_2
+# vsim work.test_pr4_2 
+# Loading work.test_pr4_2
+# Loading work.ozer_alican_pr4
+# Loading work.instMemory
+# Loading work.regMemory
+# Loading work.aluModul
+# Loading work.dataMemory
+add wave -position insertpoint sim:/test_pr4_2/*
+add wave -position insertpoint sim:/test_pr4_2/topModul/*
+add wave -position insertpoint sim:/test_pr4_2/topModul/imModul/*
+run -all
+# ** Note: $finish    : C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v(28)
+#    Time: 1 ns  Iteration: 0  Instance: /test_pr4_2
+# 1
+# Break in Module test_pr4_2 at C:/Users/Can/Desktop/Yeni klasör/ozer_alican_111044070_pr4/test_pr4_2.v line 28
